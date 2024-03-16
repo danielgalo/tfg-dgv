@@ -1,0 +1,79 @@
+.root {
+ /*    -fx-background-color: #F2F2F2;*/
+     -fx-background-image: url("/com/picasso/images/wallpaper-login.gif");
+ 
+}
+
+.button {
+	-fx-background-color: #03071E;
+    -fx-border-radius: 20; 
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0, 0, 2 );
+    -fx-font-family: "Corbel";
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 14px;
+	-fx-font-weight: 600;
+}
+
+#btnLogin{
+	-fx-font-size: 16px
+}
+
+#infoPane {
+    -fx-background-color: rgba(217, 217, 217, 0.50);
+    -fx-border-radius: 0 50.0 50.0 0; 
+    -fx-background-radius: 50.0 0 0 50.0;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0, 0, 2 );
+}
+
+#loginPane {
+	-fx-background-color: linear-gradient(to top,rgba(55, 6, 23, 0.90),rgba(106, 4, 15, 0.70));
+    -fx-border-radius: 50.0 0 0 50.0; 
+    -fx-background-radius: 0 50.0 50.0 0; 
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0, 0, 2 );  
+}
+
+#topPane {
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 15.0;
+    -fx-background-radius: 15.0;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0, 0, 2 );
+}
+
+#paneWhiteLine {
+    -fx-border-color: transparent transparent white transparent;
+    -fx-border-width: 0 0 1 0; /* Solo el borde inferior tiene un ancho de 1 píxel */
+}
+
+#bgImage {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 2);
+    -fx-background-radius: 15.0; /* Ajusta este valor según el radio de borde deseado */
+    -fx-border-radius: 15.0;
+    
+}
+
+#imgLogo {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 2);
+    -fx-background-radius: 15.0; /* Ajusta este valor según el radio de borde deseado */
+}
+
+#txtUsername {
+    -fx-border-radius: 15;
+    -fx-background-radius: 15; 
+    -fx-font-family: "Inter";
+	-fx-font-size: 14.0px;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 2);
+}
+
+#txtPassword {
+    -fx-border-radius: 15;
+    -fx-background-radius: 15; 
+    -fx-font-family: "Inter";
+	-fx-font-size: 14.0px;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: white; /* Cambia el color de fondo al pasar el ratón por encima */
+    -fx-text-fill: #03071E; /* Cambia el color del texto al pasar el ratón por encima */
+}

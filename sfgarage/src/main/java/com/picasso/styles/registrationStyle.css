@@ -1,0 +1,56 @@
+.root {
+     -fx-background-image: url("/com/picasso/images/wallpaper-registration.jpg");
+    
+}
+#topPane {
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 15.0;
+    -fx-background-radius: 15.0;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0, 0, 2 );
+}
+
+#registrationPane {
+     /* -fx-background-color: rgba(250, 163, 7, 0.90); */
+    -fx-background-color: linear-gradient(to top, rgba(232, 93, 4, 0.90), rgba(250, 163, 7, 0.90) );
+    -fx-border-radius: 50.0 0 0 50.0; 
+    -fx-background-radius: 0 50.0 50.0 0; 
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0, 0, 2 );  
+}
+
+.button {
+	-fx-background-color: #03071E;
+    -fx-border-radius: 20; 
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0, 0, 2 );
+    -fx-font-family: "Corbel";
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 14px;
+	-fx-font-weight: 600;
+}
+.button:hover {
+    -fx-background-color: white; /* Cambia el color de fondo al pasar el ratón por encima */
+    -fx-text-fill: #03071E; /* Cambia el color del texto al pasar el ratón por encima */
+}
+
+.text-field {
+    -fx-border-radius: 15;
+    -fx-background-radius: 15; 
+    -fx-font-family: "Inter";
+	-fx-font-size: 14.0px;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 2);
+}
+
+.choice-box {
+    -fx-border-radius: 15;
+    -fx-background-radius: 15; 
+    -fx-font-family: "Inter";
+	-fx-font-size: 14.0px;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 2);
+}
+
+#infoPane {
+    -fx-background-color: rgba(217, 217, 217, 0.50);
+    -fx-border-radius: 0 50.0 50.0 0; 
+    -fx-background-radius: 50.0 0 0 50.0;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0, 0, 2 );
+}

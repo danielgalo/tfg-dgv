@@ -7,8 +7,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 /**
@@ -35,23 +33,5 @@ public class Transaction {
 	/** Transactions date */
 	@Column(name = "transaction_date")
 	private Date transactionDate;
-
-	// TODO terminar relacion
-	/** Client that buys / sells the car */
-	@ManyToOne
-	@JoinColumn(name = "xxxxxxxxxxxxxx")
-	private Client client;
-
-	// TODO terminar relacion
-	/** Car to buy / sell */
-	@ManyToOne
-	@JoinColumn(name = "xxxxxxxxxxxxxx")
-	private Car car;
-
-	// TODO terminar relacion
-	/** Employee that does the transaction */
-	@ManyToOne
-	@JoinColumn(name = "xxxxxxxxxxxxxx")
-	private Employee employee;
 
 }
